@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> JS syntax</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .JScode {
+            width: 900px;
+            margin: 0 auto;
+            background: #ddd;
+        }
+        
+        .headeroption,
+        .footeroption {
+            background: #444;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .headeroption h2 h3,
+        .footeroption h2 {
+            margin: 0;
+        }
+        
+        h3 {
+            text-align: center;
+        }
+        
+        .maincontent {
+            min-height: 500px;
+            padding: 20px;
+        }
+        
+        P {
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="JScode">
+        <section class="headeroption">
+
+            <h2>AR Islam </h2>
+
+        </section>
+        <h3>JS Code</h3>
+        <p id="dateid"></p>
+        <script src="date.js"></script>
+        <hr/>
+
+
+        <section class="maincontent">
+
+            <form name="myform" action="">
+                Name       : Md Ariful Islam.</br>
+                Batch      : 45th.</br>
+                ID         : 1722020003.</br>
+                Phone No   : 01782175664.</br>
+				Signeturere: <img src="sign.jpg" hight="20px" width="40px"/></br>
+               
+            </form>
+
+
+            <script src="index.js">
+            </script>
+        </section>
+
+
+
+        <section class="footeroption">
+
+            <p>&copy;
+                <script>
+                    var now = new Date();
+                    now.setMonth(now.getFullYear());
+
+                    document.write("AR ISLAM " + now);
+                </script>
+            </p>
+
+            <h2>
+                <script>
+                    document.write("www.arislam.com");
+                </script>
+            </h2>
+
+        </section>
+
+    </div>
+</body>
+
+</html>
